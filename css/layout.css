@@ -2,11 +2,13 @@
 .container {
     display: flex;
     height: calc(var(--total-height) - var(--footer-height));
+    background-color: var(--container-background-color);
 }
 
 /* BLOCCO SIDE */
 .container__sidebar {
     width: var(--container-sidebar-width);
+    background-color: var(--container-sidebar-background-color);
 }
 
 /* CONTENITORE DI HEADER E MAIN */
@@ -20,13 +22,16 @@
 /* Blocco header "EFFETTUA UPGRADE" */
 .main-content__header {
     height: var(--container-header-height);
+    background-color: var(--container-content-header-background-color);
 }
 
 .main-content__main {
     /* TOLTO PX DI FOOTER E HEADER */
     height: calc(var(--total-height) - var(--container-header-height) - var(--footer-height));
+    background-color: var(--container-content-main-background-color);
 }
 
 .footer {
     height: var(--footer-height);
+    background-color: var(--container-footer-background-color);
 }
