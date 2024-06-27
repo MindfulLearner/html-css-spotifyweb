@@ -1,2 +1,6 @@
 :root {
+    --container-sidebar-width: 200px;
+    --container-header-height: 50px;
+    --footer-height: 60px;
+    --total-height: 100vh;
 }

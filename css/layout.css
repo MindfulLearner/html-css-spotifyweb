@@ -1,30 +1,32 @@
 /* Blocchi */
 .container {
     display: flex;
-    height: calc(100vh - 60px);
-
+    height: calc(var(--total-height) - var(--footer-height));
 }
-/* Elementi del blocco container */
+
+/* BLOCCO SIDE */
 .container__sidebar {
-    width: 200px;
+    width: var(--container-sidebar-width);
 }
 
+/* CONTENITORE DI HEADER E MAIN */
 .container__main-content {
-   display: flex;
-   flex-direction: column;
-   height: calc(100vh - 60px);
-   width: calc(100% - 200px);
+    display: flex;
+    flex-direction: column;
+    height: calc(var(--total-height) - var(--footer-height));
+    width: calc(var(--total-percent-width) - var(--container-sidebar-width));
 }
-/* Blocchi all'interno di container__main-content */
+
+/* Blocco header "EFFETTUA UPGRADE" */
 .main-content__header {
-    height: 50px;
+    height: var(--container-header-height);
 }
+
 .main-content__main {
-    /* tolto footer */
-    height: calc(100vh - 50px - 60px); 
+    /* TOLTO PX DI FOOTER E HEADER */
+    height: calc(var(--total-height) - var(--container-header-height) - var(--footer-height));
 }
 
 .footer {
-    height: 60px;
+    height: var(--footer-height);
 }
-
