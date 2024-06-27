@@ -20,13 +20,17 @@
         <link rel="stylesheet" href="./css/responsive.css">
         <link rel="stylesheet" href="./css/root.css">
         <link rel="stylesheet" href="./css/aligner.css">
+        <link rel="stylesheet" href="./css/sidebar.css">
+        <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/footer.css">
     </head>
     <body>
         <!-- ************************** WEB APP LAYOUT **************************-->
         <div class="container">
 
                 <!-- ************************** SIDE BAR SPOTIFY ************************** -->
-            <div class="container__sidebar">
+            <div class="container__sidebar container__sidebar--aligner ">
                     <!-- LOGO -->
                 <div class="sidebar__logo">
                     <img src="./img/logo.svg" alt="Logo">
@@ -34,24 +38,33 @@
                     <!-- SIDE NAVIGATORE -->
                 <div class="sidebar__navigation">
                     <ul class="navigation__list">
-                        <li class="navigation__item">Home</li>
-                        <li class="navigation__item">Cerca</li>
+                        <li class="navigation__item"><i class="fas fa-home"></i>Home</li>
+                        <li class="navigation__item"><i class="fas fa-search"></i>Cerca</li>
                     </ul>
                 </div>
                     <!-- SIDE LIBRARY -->
                 <div class="sidebar__library">
-                    La mia libreria
+                    <i class="fa-solid fa-book-open"></i> La mia libreria
                 </div>
                 <div class="sidebar__create-playlist">
-                    Crea Playlist
+                    <h3>PLAYLIST</h3>
+                    <div>
+                    <i class="fas fa-plus-square"></i> Crea Playlist
+                    </div>
                 </div>
                     <!-- BARRA RICERCA -->
                 <div class="sidebar__search-bar">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <div><div>Recenti</div> <i class="fa-solid fa-bars"></i></div>
                 </div>
                     <!-- LISTA PLAYLIST -->
                 <div class="sidebar__playlists">
                     <ul class="playlists__list">
                         <li class="playlists__item">Playlist 1</li>
+                        <li class="playlists__item">Playlist 2</li>
+                        <li class="playlists__item">Playlist 2</li>
+                        <li class="playlists__item">Playlist 2</li>
+                        <li class="playlists__item">Playlist 2</li>
                         <li class="playlists__item">Playlist 2</li>
                     </ul>
                 </div>
@@ -60,10 +73,37 @@
                 <!-- ************************** CONTAINER CON HEADER MOBILE E MAIN ************************** -->
             <div class="container__main-content">
                 <header class="main-content__header">
-                    ciao
+                    <div class="main-content__header--button">EFFETUA L'UPGRADE</div>
                 </header>
-                <div class="main-content__main">
-                    cioaoo
+                <!-- Primo container-->
+                <div class="main-content__highlights">
+                    <ul class="highlights__list">
+                        <li class="highlights__item">IN EVIDENZA <hr> </li>
+                        <li class="highlights__item">PODCAST</li>
+                        <li class="highlights__item">CLASSIFICHE</li>
+                        <li class="highlights__item">GENERI E MOOD</li>
+                        <li class="highlights__item">NUOVE USCITE</li>
+                        <li class="highlights__item">SCOPRI</li>
+                    </ul>
+                </div>
+
+                <!-- Secondo container-->
+                <div class="main-content__recently-played">
+                    <h2 class="recently-played__title">Recently played</h2>
+                </div>
+
+                <!-- Terzo container-->
+                    <div class="main-content__recent-container">
+                            <div class="main-content__recent-item">
+                                <div class="recent-item__image">
+                                    <img src="./img/metal_lifting.jpg" alt="Metal">
+                                </div>
+                                <div class="recent-item__info">
+                                    <h3 class="recent-item__title">Titolo</h3>
+                                    <p class="recent-item__author">Autore</p>
+                                </div>
+                            </div>
+                    </div>
                 </div>
             </div>
         </div>

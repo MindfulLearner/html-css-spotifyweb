@@ -7,8 +7,14 @@
 
 /* BLOCCO SIDE */
 .container__sidebar {
+    padding-top: 15px;
+    padding-bottom: 10px;
     width: var(--container-sidebar-width);
     background-color: var(--container-sidebar-background-color);
+
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
 }
 
 /* CONTENITORE DI HEADER E MAIN */
@@ -23,6 +29,11 @@
 .main-content__header {
     height: var(--container-header-height);
     background-color: var(--container-content-header-background-color);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+
 }
 
 .main-content__main {
@@ -37,28 +48,3 @@
 }
 
 
-/* ************************** SIDE BAR SPOTIFY ************************** */
-
-.sidebar__logo {
-}
-
-.sidebar__navigation {
-}
-
-.navigation__list {
-}
-
-.sidebar__library {
-}
-
-.sidebar__create-playlist {
-}
-
-.sidebar__search-bar {
-}
-
-.sidebar__playlists {
-}
-
-.playlists__list {
-}

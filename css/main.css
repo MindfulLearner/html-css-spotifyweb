@@ -1,0 +1,71 @@
+.container__main-content * {
+    color: white;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main-content__highlights {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+body > div > div.container__main-content > div.main-content__highlights > ul > li:nth-child(1) > hr {
+    width: 40%;
+    margin: 0 auto;
+    border-color: #72ac4b;
+}
+
+.main-content__highlights > .highlights__list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 0.8em;
+}
+
+.main-content__highlights > .highlights__list li{
+    color: #918383;
+}
+
+
+.main-content__recently-played {
+    padding-left: 10px;
+    font-size: small;
+    padding-bottom: 15px;
+}
+
+.recently-played__title {
+    font-weight: 550;
+}
+
+.main-content__recent-container {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.main-content__recent-item {
+    
+}
+
+.recent-item__image {
+    width: calc(100% / 6);
+}
+
+.recent-item__image img {
+    width: 100%;
+}
+
+.recent-item__info {
+   
+}
+
+.recent-item__title {
+    
+
+.recent-item__author {
+    
+}

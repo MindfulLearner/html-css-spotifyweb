@@ -1,0 +1,89 @@
+/* ************************** SIDE BAR SPOTIFY ************************** */
+
+.sidebar__logo {
+    width: 78%;
+    
+}
+
+.sidebar__navigation ul{
+display: flex;
+flex-direction: column;
+gap: 10px;
+
+}
+
+.sidebar__navigation ul li,
+.sidebar__library,
+.sidebar__create-playlist,
+.sidebar__search-bar div {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: rgb(145, 131, 131);
+}
+    body > div > div.container__sidebar.container__sidebar--aligner > div.sidebar__search-bar {
+        color:rgb(145, 131, 131);
+    }
+
+body > div > div.container__sidebar.container__sidebar--aligner > div.sidebar__search-bar > div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+
+.sidebar__create-playlist {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+body > div > div.container__sidebar.container__sidebar--aligner > div.sidebar__create-playlist > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sidebar__search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sidebar__playlists {
+    padding-top: 20px;
+}
+
+.playlists__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* ************************** TEXT SPOTIFYSIDEBAR ************************** */
+
+.container__sidebar {
+    font-size: 0.8rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+}
+.container__sidebar i{
+    font-size: 20px;
+    }
+
+    body > div > div.container__sidebar.container__sidebar--aligner > div.sidebar__search-bar > i {
+        font-size: small;
+    }
+
+    body > div > div.container__sidebar.container__sidebar--aligner > div.sidebar__create-playlist > div i {
+        font-size: 40px;
+    }
+
+
+    body > div > div.container__sidebar.container__sidebar--aligner > div.sidebar__playlists > ul li {
+        color: rgb(145, 131, 131);
+    }
+
