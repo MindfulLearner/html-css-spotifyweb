@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+    <html lang="en">
     <head>
-    <!-- META -->
+        <!-- META -->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- TITOLO -->
+        <!-- TITOLO -->
         <title>Spotify</title>
-    <!-- FONT LINK -->
+        <!-- FONT LINK -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <!-- FontAwesome -->
+        <!-- FontAwesome -->
         <script src="https://kit.fontawesome.com/58e1ebb4d2.js" crossorigin="anonymous"></script>
-    <!-- CSS LINK -->
+        <!-- CSS LINK -->
         <link rel="stylesheet" href="./css/layout.css">
         <link rel="stylesheet" href="./css/text.css">
         <link rel="stylesheet" href="./css/debug.css">
@@ -28,36 +28,38 @@
     <body>
         <!-- ************************** WEB APP LAYOUT **************************-->
         <div class="container">
-
-                <!-- ************************** SIDE BAR SPOTIFY ************************** -->
+            <!-- ************************** SIDE BAR SPOTIFY ************************** -->
             <div class="container__sidebar container__sidebar--aligner ">
-                    <!-- LOGO -->
+                <!-- LOGO -->
                 <div class="sidebar__logo">
-                    <img src="./img/logo.svg" alt="Logo">
+                <img src="./img/logo.svg" alt="Logo">
                 </div>
-                    <!-- SIDE NAVIGATORE -->
+                <!-- SIDE NAVIGATORE -->
                 <div class="sidebar__navigation">
-                    <ul class="navigation__list">
-                        <li class="navigation__item"><i class="fas fa-home"></i>Home</li>
-                        <li class="navigation__item"><i class="fas fa-search"></i>Cerca</li>
-                    </ul>
+                <ul class="navigation__list">
+                    <li class="navigation__item"><i class="fas fa-home"></i>Home</li>
+                    <li class="navigation__item"><i class="fas fa-search"></i>Cerca</li>
+                </ul>
                 </div>
-                    <!-- SIDE LIBRARY -->
+                <!-- SIDE LIBRARY -->
                 <div class="sidebar__library">
-                    <i class="fa-solid fa-book-open"></i> La mia libreria
+                <i class="fa-solid fa-book-open"></i> La mia libreria
                 </div>
                 <div class="sidebar__create-playlist">
-                    <h3>PLAYLIST</h3>
-                    <div>
+                <h3>PLAYLIST</h3>
+                <div>
                     <i class="fas fa-plus-square"></i> Crea Playlist
-                    </div>
                 </div>
-                    <!-- BARRA RICERCA -->
+                </div>
+                <!-- BARRA RICERCA -->
                 <div class="sidebar__search-bar">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <div><div>Recenti</div> <i class="fa-solid fa-bars"></i></div>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <div>
+                    <div>Recenti</div>
+                    <i class="fa-solid fa-bars"></i>
                 </div>
-                    <!-- LISTA PLAYLIST -->
+                </div>
+                <!-- LISTA PLAYLIST -->
                 <div class="sidebar__playlists">
                     <ul class="playlists__list">
                         <li class="playlists__item">Playlist 1</li>
@@ -69,54 +71,145 @@
                     </ul>
                 </div>
             </div>
-
-                <!-- ************************** CONTAINER CON HEADER MOBILE E MAIN ************************** -->
+            <!-- ************************** CONTAINER CON HEADER MOBILE E MAIN ************************** -->
             <div class="container__main-content">
                 <header class="main-content__header">
                     <div class="main-content__header--button">EFFETUA L'UPGRADE</div>
                 </header>
-                <!-- Primo container-->
-                <div class="main-content__highlights">
-                    <ul class="highlights__list">
-                        <li class="highlights__item">IN EVIDENZA <hr> </li>
-                        <li class="highlights__item">PODCAST</li>
-                        <li class="highlights__item">CLASSIFICHE</li>
-                        <li class="highlights__item">GENERI E MOOD</li>
-                        <li class="highlights__item">NUOVE USCITE</li>
-                        <li class="highlights__item">SCOPRI</li>
-                    </ul>
-                </div>
-
-                <!-- Secondo container-->
-                <div class="main-content__recently-played">
-                    <h2 class="recently-played__title">Recently played</h2>
-                </div>
-
-                <!-- Terzo container-->
+                <div class="main-content--container">
+                    <!-- Primo container-->
+                    <div class="main-content__highlights">
+                        <ul class="highlights__list">
+                            <li class="highlights__item">
+                                IN EVIDENZA
+                                <hr>
+                            </li>
+                                <li class="highlights__item">PODCAST</li>
+                                <li class="highlights__item">CLASSIFICHE</li>
+                                <li class="highlights__item">GENERI E MOOD</li>
+                                <li class="highlights__item">NUOVE USCITE</li>
+                                <li class="highlights__item">SCOPRI</li>
+                        </ul>
+                    </div>
+                    <!-- Secondo container-->
+                    <div class="main-content__recently-played">
+                        <h2 class="recently-played__title">Recently played</h2>
+                    </div>
+                    <!-- Terzo container-->
                     <div class="main-content__recent-container">
-                            <div class="main-content__recent-item">
-                                <div class="recent-item__image">
-                                    <img src="./img/metal_lifting.jpg" alt="Metal">
-                                </div>
-                                <div class="recent-item__info">
-                                    <h3 class="recent-item__title">Titolo</h3>
-                                    <p class="recent-item__author">Autore</p>
-                                </div>
+                        <div class="main-content__recent-item">
+                            <div class="recent-item__image">
+                                <img src="./img/Tim henson.jpg" alt="">
                             </div>
+                            <div class="recent-item__info">
+                                <h3 class="recent-item__title">Titolo</h3>
+                                <p class="recent-item__author">Autore</p>
+                            </div>
+                        </div>
+                        <div class="main-content__recent-item">
+                            <div class="recent-item__image">
+                                <img src="./img/psicologi.jpg" alt="">
+                            </div>
+                            <div class="recent-item__info">
+                                <h3 class="recent-item__title">Titolo</h3>
+                                <p class="recent-item__author">Autore</p>
+                            </div>
+                        </div>
+                        <div class="main-content__recent-item">
+                            <div class="recent-item__image">
+                                <img src="./img/psicolig2.jpg" alt="">
+                            </div>
+                            <div class="recent-item__info">
+                                <h3 class="recent-item__title">Titolo</h3>
+                                <p class="recent-item__author">Autore</p>
+                            </div>
+                        </div>
+                        <div class="main-content__recent-item">
+                            <div class="recent-item__image">
+                                <img src="./img/ariete.jpg" alt="">
+                            </div>
+                            <div class="recent-item__info">
+                                <h3 class="recent-item__title">Titolo</h3>
+                                <p class="recent-item__author">Autore</p>
+                            </div>
+                        </div>
+                        <div class="main-content__recent-item">
+                            <div class="recent-item__image">
+                                <img src="./img/jojosiwa.png" alt="">
+                            </div>
+                            <div class="recent-item__info">
+                                <h3 class="recent-item__title">Titolo</h3>
+                                <p class="recent-item__author">Autore</p>
+                            </div>
+                        </div>
+                        <div class="main-content__recent-item">
+                            <div class="recent-item__image">
+                                <img src="./img/calcutta-relax.jpg" alt="">
+                            </div>
+                            <div class="recent-item__info">
+                                <h3 class="recent-item__title">Titolo</h3>
+                                <p class="recent-item__author">Autore</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Creat0o per-->
+                    <div class="main-content__recently-played">
+                        <h2 class="recently-played__title">Creato per John Doe</h2>
+                        <class class="recently-played__paragraph">Più ascolti, più accurati saranno i suggerimenti.</class>
+                    </div>
+                    <!-- swag-->
+                    <div class="main-content__recent-container">
+                        <div class="main-content__recent-item">
+                            <div class="recent-item__image">
+                                <img src="./img/radar.jpeg" alt="">
+                            </div>
+                            <div class="recent-item__info">
+                                <h3 class="recent-item__title">Titolo</h3>
+                                <p class="recent-item__author">Autore</p>
+                            </div>
+                        </div>
+                        <div class="main-content__recent-item">
+                            <div class="recent-item__image">
+                                <img src="./img/mixdaily.jpeg" alt="">
+                            </div>
+                            <div class="recent-item__info">
+                                <h3 class="recent-item__title">Titolo</h3>
+                                <p class="recent-item__author">Autore</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Artisti piu popolari-->
+                    <div class="main-content__recently-played">
+                        <h2 class="recently-played__title">Artisti più popolari</h2>
+                        <class class="recently-played__paragraph">Più ascolti e più sei swag e ci saranno suggerimenti.</class>
+                    </div>
+                    <!-- Terzo container-->
+                    <div class="main-content__recent-container">
+                        <div class="main-content__recent-item">
+                            <div class="recent-item__image">
+                                <img src="./img/youg.jpeg" alt="">
+                            </div>
+                            <div class="recent-item__info">
+                                <h3 class="recent-item__title">Titolo</h3>
+                                <p class="recent-item__author">Autore</p>
+                            </div>
+                        </div>
+                        <div class="main-content__recent-item">
+                            <div class="recent-item__image">
+                                <img src="./img/einaudi.jpeg" alt="">
+                            </div>
+                            <div class="recent-item__info">
+                                <h3 class="recent-item__title">Titolo</h3>
+                                <p class="recent-item__author">Autore</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        
-            <!-- ************************** FOOTER ************************** -->
+        <!-- ************************** FOOTER ************************** -->
         <footer class="footer">
             footer
         </footer>
-
-
-
-
-
-
     </body>
 </html>

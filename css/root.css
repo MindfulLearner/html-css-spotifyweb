@@ -1,7 +1,7 @@
 /* MISURE LAYOUT */
 :root {
     --container-sidebar-width: 200px;
-    --container-header-height: 60px;
+    --container-header-height: 100px;
     --footer-height: 80px;
     --total-height: 100vh;
     --total-percent-width: 100%;
@@ -11,7 +11,8 @@
 :root {
     --container-background-color: #23272f;
     --container-sidebar-background-color: #000000;
-    --container-content-header-background-color: rgba(0, 0, 0, 0.381);
-    --container-content-main-background-color: #23272f;
+    --container-content-header-background-color: rgb(0, 0, 0);
+    --container-content-main-background-color: rgba(206, 26, 26, 0.424);
     --container-footer-background-color: #313131;
 }
+
