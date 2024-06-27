@@ -1,5 +1,3 @@
-
-
 /* Blocchi */
 .container {
     display: flex;
@@ -36,4 +34,31 @@
 .footer {
     height: var(--footer-height);
     background-color: var(--container-footer-background-color);
+}
+
+
+/* ************************** SIDE BAR SPOTIFY ************************** */
+
+.sidebar__logo {
+}
+
+.sidebar__navigation {
+}
+
+.navigation__list {
+}
+
+.sidebar__library {
+}
+
+.sidebar__create-playlist {
+}
+
+.sidebar__search-bar {
+}
+
+.sidebar__playlists {
+}
+
+.playlists__list {
 }
