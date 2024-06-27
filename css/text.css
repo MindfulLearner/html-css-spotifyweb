@@ -1,0 +1,24 @@
+/* Paragrafo */
+p {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Puoi cambiare il valore a qualsiasi numero tra 100 e 900 */
+    font-style: normal;
+  }
+  
+  /* Div */
+div {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Puoi cambiare il valore a qualsiasi numero tra 100 e 900 */
+    font-style: normal;
+  }
+  
+  /* h1 */
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700; /* Solitamente i titoli hanno un peso maggiore, ma puoi regolare tra 100 e 900 */
+    font-style: normal;
+  }
+  
