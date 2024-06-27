@@ -37,7 +37,7 @@
 
 }
 
-.main-content__main {
+.main-content--container {
     /* TOLTO PX DI FOOTER E HEADER */
     height: calc(var(--total-height) - var(--container-header-height) - var(--footer-height));
     background-color: var(--container-content-main-background-color);
