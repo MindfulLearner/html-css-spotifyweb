@@ -55,6 +55,9 @@ body > div > div.container__sidebar.container__sidebar--aligner > div.sidebar__c
     padding-top: 20px;
     overflow: auto;
     flex-grow: 1;
+
+    min-height: 127px;
+
 }
 
 .playlists__list {
