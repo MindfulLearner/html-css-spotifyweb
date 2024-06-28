@@ -46,6 +46,8 @@
 .footer {
     height: var(--footer-height);
     background-color: var(--container-footer-background-color);
+    z-index: 1;
+    position: relative;
 }
 
 

@@ -53,6 +53,8 @@ body > div > div.container__sidebar.container__sidebar--aligner > div.sidebar__c
 
 .sidebar__playlists {
     padding-top: 20px;
+    overflow: auto;
+    flex-grow: 1;
 }
 
 .playlists__list {
@@ -87,3 +89,24 @@ body > div > div.container__sidebar.container__sidebar--aligner > div.sidebar__c
         color: rgb(145, 131, 131);
     }
 
+
+
+    .nomenome {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        gap: 10px;
+        margin-top: auto;
+    }
+
+    .nomenome div {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: small;
+    }
+
+    .nomenome > div >  div, i {
+    
+        font-size: xx-small;
+    }

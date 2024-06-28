@@ -14,3 +14,9 @@
     justify-content: center;
     align-items: center;
 }
+
+.main-content__header { 
+    position: sticky;
+    top: 0;
+
+}

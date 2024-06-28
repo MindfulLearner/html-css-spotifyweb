@@ -14,3 +14,5 @@ PARTE COLONNA SINISTRA CON SCROLL BAR e Footer che copre la  pagina gaurdare scr
 
 UTILIZZO DI NOMENCLATURA BEM UTILIZZO DI MONTSERRAT 
 UTILIZZO DI ROOT 
+
+## PROBLEMA GRANDISSIMO, ho sistemato un problema attraverso background color.!
