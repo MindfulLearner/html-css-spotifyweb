@@ -14,5 +14,41 @@ PARTE COLONNA SINISTRA CON SCROLL BAR e Footer che copre la  pagina gaurdare scr
 
 UTILIZZO DI NOMENCLATURA BEM UTILIZZO DI MONTSERRAT 
 UTILIZZO DI ROOT 
-
 ## PROBLEMA GRANDISSIMO, ho sistemato un problema attraverso background color.!
+
+
+## attenzione a 
+.recent-item__image > .recent-item__play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-family: "Font Awesome 6 Free";
+    font-size: medium ;
+}
+
+trasform stralate per centrare anziche usare flex
+
+.pallina {
+    width: 13px;
+    height: 13px;
+    background-color: #ffffff; /* Colore della pallina */
+    border-radius: 50%; 
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    /* display: none; */
+}
+
+si potrebbe usare display none ma pensavo fosse piu okay con opacity
+
+## CONTROLLO TASKS
+
+CHECK RESPONSIVE POSITIVO
+CHECK HOOVERS POSITIVO
+CHECK OVER FLOW POSITIVO con un leggero bug in main
+CHECK HOOVER PLAY POSITIVO
+CHECK HOOVER PALLINA POSITIVO

@@ -35,6 +35,12 @@ body > div > div.container__sidebar.container__sidebar--aligner > div.sidebar__c
 }
 
 
+/* footer */
+
+.progress__bar:hover .pallina {
+    opacity: 1;
+}
+
 
 /* PLAY BUTTON */
 
