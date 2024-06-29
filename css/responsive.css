@@ -1,0 +1,85 @@
+@media screen and (max-width: 1318px) {
+    .main-content__recent-item {
+        width: calc((100% / 3) - 20px);
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 900px) {
+    .main-content__recent-item {
+        width: calc((100% / 2) - 20px);
+    }
+
+    body > footer > div.footer__section.footer__section--volume > i.fas.fa-desktop  {
+        display: none;
+    }
+    
+    body > footer > div.footer__section.footer__section--volume > i.fas.fa-list  {
+        display: none;
+    }
+
+    .footer__section.footer__section--volume > div {
+        width: 100%;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+
+        .highlights__list {
+        flex-wrap: wrap
+        }
+        .highlights__list i {
+            width: calc((100% / 3) - 20px);
+        }
+    }
+
+ 
+    @media screen and (max-width: 780px) {
+    
+        .info__icons {
+            flex-direction: column;
+        }
+    }
+    
+    @media screen and (max-width: 720px) {
+        .info__icons {
+            display: none;
+        }
+    }
+    /* sidebar rimpicciolito */
+    @media screen and (max-width: 568px) {
+        .sidebar__playlists, .sidebar__logo, .sidebar__navigation, .navigation__list, .sidebar__library, .sidebar__create-playlist, .sidebar__search-bar, .nomenome {
+            display: none;
+        }
+        :root {
+            --container-sidebar-width: 58px;
+        }
+
+        .container__sidebar--responsive {
+            display: flex;
+        }
+
+        .info__text {
+            display: none;
+        }
+
+    }
+
+
+
+@media screen and (max-width: 500px) {
+    .main-content__highlights {
+        display: none;
+    }
+
+    .info__icons {
+        display: none;
+    }
+}

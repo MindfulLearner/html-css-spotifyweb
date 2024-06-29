@@ -1,0 +1,149 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+
+    width: 20%;
+    justify-content: start;
+}
+
+
+.footer__section.footer__section--info {
+    padding-left: 20px;
+}
+
+.info__logo {
+    width: 50px;
+}
+
+.info__logo img {
+    width: 50px;
+}
+
+.info__text {
+    color: white;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; 
+    font-style: normal;
+    font-size: small;
+}
+
+
+.info__description {
+    color: grey;
+}
+
+.info__icons {
+    padding-left: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.info__icons i {
+    color: grey;
+    font-size: large;
+}
+
+/* Sezione controls */  
+.footer__section.footer__section--controls {
+    width: 40%;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.controls__buttons {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding-bottom: 5px;
+}
+
+.fa-play{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.controls__buttons i {
+    font-size: medium;
+}
+
+.controls__progress {
+    display: flex; 
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* p {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; 
+    font-style: normal;
+  }
+*/
+
+.progress__time {
+    color: white;
+    
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; 
+    font-style: normal;
+    font-size: small;
+    
+}
+
+.progress__bar {
+    height: 5px;
+    width: 60%;
+    background-color: grey;
+}
+
+.progress__bar--white-space {
+    height: 5px;
+    width: 40%;
+    background-color: white;
+}
+
+/* Sezione volume */
+.footer__section--volume {
+    width: 20%;
+    justify-content: end;
+    align-items: center;    
+    padding-right: 20px;
+}
+
+.footer__section--volume i {
+    
+    color: white;
+    font-size: small;
+}
+
+.volume__control {
+    height: 3px;
+    width: 30%;
+    background-color: grey;
+}
+
+.volume__bar {
+    height: 3px;
+    width: 20%;
+    background-color: white;
+}

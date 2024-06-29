@@ -96,3 +96,51 @@ body > div > div.container__main-content > div > div.main-content__highlights > 
     font-size: small;
     color: #918383;
 }
+
+
+.container__sidebar--responsive{
+    color: white;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    color: grey;
+}
+
+.container__sidebar--start{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.container__sidebar--end {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.fab.fa-spotify {
+    font-size: x-large;
+}
+
+.fas.fa-home {
+    font-size: large;
+}
+
+.fas.fa-search {
+    font-size: large;
+}
+
+.fas.fa-book {
+    font-size: large;
+}
+
+.fas.fa-download {
+    font-size: xx-small;
+}
+
+.fas.fa-user {
+    font-size: large;
+}

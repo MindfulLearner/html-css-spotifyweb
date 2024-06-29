@@ -10,7 +10,7 @@ In allegato troverete le screenshot per vedere il layout anche nelle versioni re
 
 
 ## TASK COMPLICATI:
-PARTE COLONNA SINISTRA CON SCROLL BAR e Footer che copre la  pagina gaurdare screens
+PARTE COLONNA SINISTRA CON SCROLL BAR e Footer che copre la  pagina gaurdare screens, il problema si trova penso nei calcoli VH nel main container background.
 
 UTILIZZO DI NOMENCLATURA BEM UTILIZZO DI MONTSERRAT 
 UTILIZZO DI ROOT 

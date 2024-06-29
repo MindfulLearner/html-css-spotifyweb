@@ -17,19 +17,36 @@
         <link rel="stylesheet" href="./css/text.css">
         <link rel="stylesheet" href="./css/debug.css">
         <link rel="stylesheet" href="./css/reset.css">
-        <link rel="stylesheet" href="./css/responsive.css">
         <link rel="stylesheet" href="./css/root.css">
         <link rel="stylesheet" href="./css/aligner.css">
         <link rel="stylesheet" href="./css/sidebar.css">
         <link rel="stylesheet" href="./css/header.css">
-        <link rel="stylesheet" href="./css/main.css">
         <link rel="stylesheet" href="./css/footer.css">
+        <link rel="stylesheet" href="./css/hoover.css">
+        <link rel="stylesheet" href="./css/main.css">
+        <!-- BISOGNA METTERE RESPONSIVE PIU GIU VIENE PRESA LA REGOLA PIU BASSA -->
+        <link rel="stylesheet" href="./css/responsive.css">
     </head>
     <body>
         <!-- ************************** WEB APP LAYOUT **************************-->
         <div class="container">
             <!-- ************************** SIDE BAR SPOTIFY ************************** -->
             <div class="container__sidebar container__sidebar--aligner ">
+                <div class="container__sidebar--responsive">
+                    <div class="container__sidebar--start">
+                        <i class="fab fa-spotify"></i>
+                        <i class="fas fa-home"></i>
+                        <i class="fas fa-search"></i>
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <div class="container__sidebar--end">
+                        <i class="fas fa-download"></i> 
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+
+
+
                 <!-- LOGO -->
                 <div class="sidebar__logo">
                 <img src="./img/logo.svg" alt="Logo">
@@ -225,7 +242,42 @@
         </div>
         <!-- ************************** FOOTER ************************** -->
         <footer class="footer">
-            footer
+            <div class="footer__section footer__section--info">
+                <div class="info__logo">
+                    <img src="./img/calcutta-relax.jpg" alt="">
+                </div>
+                <div class="info__text">
+                    <p class="info__title">Titolo</p>
+                    <p class="info__description">Descrizione</p>
+                </div>
+                <div class="info__icons">
+                    <i class="far fa-heart"></i>
+                    <i class="far fa-folder"></i>
+                </div>
+            </div>
+        
+            <div class="footer__section footer__section--controls">
+                <div class="controls__buttons">
+                    <i class="fas fa-random"></i>
+                    <i class="fas fa-step-backward"></i>
+                    <i class="fas fa-play"></i>
+                    <i class="fas fa-step-forward"></i>
+                    <i class="fas fa-sync"></i>
+                </div>
+                <div class="controls__progress">
+                    <div class="progress__time">0:25</div>
+                    <div class="progress__bar"><div class="progress__bar--white-space"></div></div>
+                    <div class="progress__time">4:45</div>
+                </div>
+            </div>
+        
+            <div class="footer__section footer__section--volume">
+                <i class="fas fa-list"></i>
+                <i class="fas fa-desktop"></i>
+                <i class="fas fa-volume-up"></i>
+                <div class="volume__control"><div class="volume__bar"></div></div>
+                
+            </div>
         </footer>
     </body>
 </html>
