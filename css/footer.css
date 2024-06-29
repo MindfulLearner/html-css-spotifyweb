@@ -69,6 +69,7 @@ footer {
 }
 
 .fa-play{
+    padding: 13px;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -3,7 +3,6 @@
 
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
     font-style: normal;
     
     
@@ -71,12 +70,7 @@ body > div > div.container__main-content > div > div.main-content__highlights > 
     color: #918383;
 }
 
-.main-content--container {
-}
 
-.recent-item__image {
-   
-}
 
 .recent-item__image img {
     width: 100%;

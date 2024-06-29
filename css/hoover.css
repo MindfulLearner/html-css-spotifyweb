@@ -1,0 +1,70 @@
+.info__description:hover {
+    color: white;
+}
+
+.info__icons i:hover {
+    color: white;
+}
+
+.controls__buttons i:hover {
+    color: white;
+}
+
+.footer__section--volume i:hover {
+    color: white;
+}
+
+
+.sidebar__navigation ul li:hover,
+.sidebar__library:hover,
+.sidebar__create-playlist:hover,
+.sidebar__search-bar div:hover,
+body > div > div.container__sidebar.container__sidebar--aligner > div.sidebar__search-bar:hover,
+body > div > div.container__sidebar.container__sidebar--aligner > div.sidebar__playlists > ul li:hover {
+    color: white;
+}
+
+.sidebar__navigation ul li i:hover,
+body > div > div.container__sidebar.container__sidebar--aligner > div.sidebar__create-playlist > div i:hover {
+    color: white;
+}
+
+.main-content__highlights > .highlights__list li:hover,
+.recent-item__author:hover {
+    color: white;
+}
+
+
+
+/* PLAY BUTTON */
+
+.recent-item__image {
+    position: relative;
+    width: 100%;
+}
+
+.recent-item__image img {
+    width: 100%;
+    transition: opacity 0.3s ease;
+}
+
+.recent-item__image:hover img {
+    opacity: 0.4;
+}
+
+.recent-item__image > .recent-item__play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-family: "Font Awesome 6 Free";
+    font-size: medium ;
+}
+
+.recent-item__image:hover .recent-item__play-icon {
+    opacity: 1;
+}
