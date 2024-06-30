@@ -28,7 +28,7 @@ gap: 10px;
 body > div > div.container__sidebar.container__sidebar--aligner > div.sidebar__search-bar > div {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 9px;
 }
 
 

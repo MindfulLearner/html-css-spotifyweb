@@ -52,3 +52,8 @@ CHECK HOOVERS POSITIVO
 CHECK OVER FLOW POSITIVO con un leggero bug in main
 CHECK HOOVER PLAY POSITIVO
 CHECK HOOVER PALLINA POSITIVO
+
+## Da sistemare Background anche se gia funzionale
+
+
+
